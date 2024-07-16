@@ -6,7 +6,7 @@ This repository accompanies the publication
 
 There are 7 independent directories:
 
-1- Description of Train_Test_KaggleDS:
+**1- Description of Train_Test_KaggleDS:**
 Classification of a dataset named KaggleDS from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -17,7 +17,7 @@ Classification of a dataset named KaggleDS from kaggle:  https://www.kaggle.com/
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - Models are trained using KaggleDS dataset and the validation is performed using KaggleDS dataset
 
-2- Description of Train_Test_GoogleDS:
+**2- Description of Train_Test_GoogleDS:**
 Classification of a dataset named GoogleDS from Google
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -28,7 +28,7 @@ Classification of a dataset named GoogleDS from Google
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - Models are trained using GoogleDS dataset and the validation is performed using GoogleDS dataset
 
-3- Description of Train_KaggleDS_Test_GoogleDS:
+**3- Description of Train_KaggleDS_Test_GoogleDS:**
 Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -39,7 +39,7 @@ Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/data
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - The best model is trained using KaggleDS dataset and the validation is performed using GoogleDS dataset
 
-4- Description of Train_GoogleDS_Test_KaggleDS:
+**4- Description of Train_GoogleDS_Test_KaggleDS:**
 Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -50,7 +50,7 @@ Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/data
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - The best model is trained using GoogleDS dataset and the validation is performed using KaggleDS dataset
 
-5- Description of Train_KaggleDS_GoogleDS_Test_KaggleDS:
+**5- Description of Train_KaggleDS_GoogleDS_Test_KaggleDS:**
 Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -61,7 +61,7 @@ Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/data
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - The best model is trained using KaggleDS and GoogleDS datasets and the validation is performed using KaggleDS dataset
 
-6- Description of Train_KaggleDS_GoogleDS_Test_GoogleDS:
+**6- Description of Train_KaggleDS_GoogleDS_Test_GoogleDS:**
 Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
@@ -72,7 +72,7 @@ Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/data
   - use categorical cross entropy as the loss function and f1_score as evaluation metric
   - The best model is trained using KaggleDS and GoogleDS datasets and the validation is performed using GoogleDS dataset
 
-7- Description of Train_KaggleDS_GoogleDS_Test_KaggleDS_GoogleDS:
+**7- Description of Train_KaggleDS_GoogleDS_Test_KaggleDS_GoogleDS:**
 Classification of a dataset named ds_A from kaggle:  https://www.kaggle.com/datasets/salmansajid05/oral-diseases
   - without data augmentation
   - normalise all image pixel values to the range [0, 1]
